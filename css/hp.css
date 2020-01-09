@@ -15,16 +15,15 @@ h1 {
 	font-family: "Fascinate Inline", cursive;
 	font-size: 40px;
 	font-weight: normal;
-	text-align: left;
+	text-align: center;
 	padding-top: 12px;
 	display: inline;
-	margin-left: 5vw;
 	color: #ffeedb;
 }
 
 header{
 	padding-top:10px;
-	text-align: left;
+	text-align: center;
 }
 h2 {
 	font-family: "Raleway", sans-serif;
