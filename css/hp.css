@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Raleway&display=swap');
+
+
+img {
+	max-width: 25%;
+	float:right;
+	margin-right:10px;
+	min-width: 100px;
+	margin-bottom: 10px;
+	border-radius: 8px;
+
+}
+
+h1 {
+	font-family: "Fascinate Inline", cursive;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: left;
+	padding-top: 12px;
+	display: inline;
+	margin-left: 5vw;
+	color: #ffeedb;
+}
+
+header{
+	padding-top:10px;
+	text-align: left;
+}
+h2 {
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+
+}
+body {
+	font-family: "Raleway", sans-serif;
+	color: #2c302e;
+	background-color: #ffeedb;
+	margin: 0px 150px;
+	padding-top: 14px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+main {
+	text-align: left;
+	padding: 10px;
+	
+}
+
+#colorBlock{
+	background-color: #e55261;
+	height: 80px;
+	width:100%;
+	position: absolute;
+	z-index: -1;
+	border-radius: 8px;
+}
+
+p {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#updated{
+	font-size: 13px;
+	color: #ed9923;
+
+}
+
+footer {
+	clear:right;
+	background-color: #e55261;
+	border-radius: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: #ffeedb;
+}
+a {
+	color: #71b7a1;
+}
+footer a {
+	color: #ffeedb;
+}
+@media screen and (max-width: 700px) {
+	body {
+		margin: 0px 30px;
+	}
+}
+
