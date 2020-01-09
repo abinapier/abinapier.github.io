@@ -8,12 +8,13 @@
 <script src="js/hp.js"></script>
 <style src="css/hp.css"></style>
 </head>
-<body>
+<body onload="updateDates()">
 <header>
 	<h1>Abi Napier</h1>
+	<img src="img/me.jpg">
 </header>
 <main>
-	<h2>CIT 230: Assignment Protal</h2>
+	<h2>CIT 230: Assignment Portal</h2>
 	<hr>
 	<ul>
 		<li>Lesson 02: <a href="#">Assignment Link</a></li>
@@ -22,7 +23,8 @@
 	</ul>
 </main>
 <footer>
-	<p>&copy; 2020 | Abi Napier | New Mexico | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+	<p>&copy; <span id="currentYear"></span> | Abi Napier | New Mexico | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+	<p>Last updated <span id="lastModified"></span></p>
 </footer>
 </body>
 </html>
