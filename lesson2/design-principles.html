@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Design Principles</title>
+	<link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Raleway&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>Design Principles</h1>
+		<h2>Abi Napier</h2>
+	</header>
+	<main>
+		<section id="s1">
+			<h3>Repetition</h3>
+			<p>Evernote</p>
+			<p><a href="https://evernote.com" target="_blank">Evernote's Website</a></p>
+			<img src="images/evernote.jpg">
+			<p>Evernote's site uses repetition through color. The green color is seen in the logo at the top of the page, the button on the banner, and the background of the landing section. This repetition makes the different sections of the page feel cohesive and it leads the eye throughout the page making it interesting.</p>
+		</section>
+
+		<section id="s2">
+			<h3>Alignment</h3>
+			<p>Pinterest</p>
+			<p><a href="https://pinterest.com" target="_blank">Pinterest's Website</a></p>
+			<img src="images/pinterest.jpg">
+			<p>Pinterest's site uses alignment to organize the feed. The entire page has the same outer margins. Within the feed, the grid is aligned in two columns. The grid gap between each pin is the same and it leads to a very organized feel in what could have been an overwhelming amount of information.</p>
+		</section>
+
+		<section id="s3">
+			<h3>Visual Hierarchy</h3>
+			<p>Albion Fit</p>
+			<p><a href="https://albionfit.com" target="_blank">Albion Fit's Website</a></p>
+			<img src="images/albionfit.jpg">
+			<p>Albion Fit's landing page on their mobile site makes use of visual heirarchy. There is a large image that catches your attention right away. Then you look at the large tag line over the image that says "New Year, New You." Next you see a button which is a call to action-- "Shop Now". This visual heirarchy effectively draws the visitor into the website and makes them want to act.</p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy;<span id="curYear"></span> | Abi Napier | Last Updated: <span id="lstUpdt"></span></p>
+	</footer>
+	<script>
+		document.getElementById("curYear").innerHTML = new Date().getFullYear();
+		let lastModif = new Date(document.lastModified);
+		let shortDate = lastModif.toLocaleString();
+		document.getElementById("lstUpdt").innerHTML = shortDate;
+	</script>
+</body>
+</html>
