@@ -4,7 +4,7 @@ header {
 	background-color: #232528;
 	margin:0;
 	text-align: center;
-
+	padding: 10px;
 }
 
 body {
@@ -21,7 +21,12 @@ header img{
 header a{
 	color: #eaf6ff;
 	text-decoration: none;
-	padding: 5px;
+	padding: 9px;
+}
+
+header a:hover{
+	background-color: #1da6d3;
+	color: #232528;
 }
 
 h1, h2, h3 {
