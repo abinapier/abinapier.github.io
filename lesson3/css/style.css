@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans&display=swap');
+
 header {
 	background-color: #232528;
 	margin:0;
+	text-align: center;
+
 }
 
 body {
 	margin:0;
 	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #eaf6ff;
 }
 
 header img{
 	max-width: 33%;
+}
+
+header a{
+	color: #eaf6ff;
+	text-decoration: none;
+	padding: 5px;
+}
+
+h1, h2, h3 {
+	font-family: 'Baloo Paaji', cursive;
 }
