@@ -29,6 +29,7 @@ header a{
 header a:hover{
 	background-color: #1da6d3;
 	color: #232528;
+	border-radius: 10px;
 }
 
 nav {
@@ -42,9 +43,11 @@ h1, h2, h3 {
 
 h1 {
 	color:#1da6d3;
+	font-size: 50px;
 }
 h2 {
 	color:#edab31;
+	margin-top:5px;
 }
 section {
 	background-color: #eaf6ff;
@@ -55,6 +58,7 @@ section {
 
 section img{
 	max-width: 100%;
+	background-color: #232528;
 }
 main{
 	display: grid;
