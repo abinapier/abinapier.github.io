@@ -15,7 +15,7 @@ body {
 }
 
 header img{
-	max-width: 33%;
+	max-width: 80%;
 }
 
 header a{
@@ -42,13 +42,18 @@ h1, h2, h3 {
 
 /*Tablet view*/
 @media screen and (min-width: 600px) {
-
-}
-/*Desktop View*/
-@media screen and (min-width: 992px) {
+	header img{
+		width: 75%;
+	}
 	nav {
 		flex-wrap: nowrap;
 		margin-left: 20%;
 		margin-right: 20%;
+	}
+}
+/*Desktop View*/
+@media screen and (min-width: 992px) {
+	header img{
+		width:30%;
 	}
 }
