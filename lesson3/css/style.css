@@ -12,6 +12,7 @@ body {
 	padding:0;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #d9e9f4;
+	color: #232528;
 }
 
 header img{
@@ -63,6 +64,24 @@ section img{
 	max-width: 100%;
 	background-color: #232528;
 }
+
+section table, section ol{
+	text-align: left;
+}
+section ol{
+	margin:0;
+}
+table{
+	border-collapse: collapse;
+}
+table th{
+	background-color: #1da6d3;
+	color:#eaf6ff;
+}
+table th, table td{
+	border: 1px solid #232528;
+}
+
 main{
 	display: grid;
 	grid-template-columns: 1fr;
