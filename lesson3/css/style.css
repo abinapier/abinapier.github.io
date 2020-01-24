@@ -40,6 +40,22 @@ h1, h2, h3 {
 	font-family: 'Baloo Paaji', cursive;
 }
 
+h1 {
+	color:#1da6d3;
+}
+h2 {
+	color:#edab31;
+}
+section {
+	background-color: #d9e9f4;
+	border-radius: 8px;
+	padding:10px;
+	margin:10px;
+}
+main{
+	display: grid;
+	grid-template-columns: 1fr;
+}
 /*Tablet view*/
 @media screen and (min-width: 600px) {
 	header img{
@@ -50,10 +66,19 @@ h1, h2, h3 {
 		margin-left: 20%;
 		margin-right: 20%;
 	}
+	main{
+		grid-template-columns: 1fr 1fr;
+	}
 }
 /*Desktop View*/
 @media screen and (min-width: 992px) {
 	header img{
 		width:30%;
 	}
+	main{
+		grid-template-columns: 1fr 1fr 1fr;
+		margin-left:10%;
+		margin-right:10%;
+	}
 }
+
