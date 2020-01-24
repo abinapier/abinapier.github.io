@@ -77,14 +77,13 @@ table{
 table th{
 	background-color: #1da6d3;
 	color:#eaf6ff;
-	border-bottom: 1px solid: #eaf6ff;
 }
 table td{
 	background-color: #d9e9f4;
 }
 table td, table th{
 	padding:5px;
-	border-bottom: 1px solid: #eaf6ff;
+	border-bottom: 1px solid #eaf6ff;
 }
 
 main{
