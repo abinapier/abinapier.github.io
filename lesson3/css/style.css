@@ -77,9 +77,13 @@ table{
 table th{
 	background-color: #1da6d3;
 	color:#eaf6ff;
+	border-bottom: 1px solid: #eaf6ff;
 }
-table th, table td{
-	border: 1px solid #232528;
+table td{
+	border-bottom: 1px solid #232528;
+}
+table td, table th{
+	padding:5px;
 }
 
 main{
