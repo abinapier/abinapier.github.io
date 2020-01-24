@@ -80,10 +80,11 @@ table th{
 	border-bottom: 1px solid: #eaf6ff;
 }
 table td{
-	border-bottom: 1px solid #232528;
+	background-color: #d9e9f4;
 }
 table td, table th{
 	padding:5px;
+	border-bottom: 1px solid: #eaf6ff;
 }
 
 main{
