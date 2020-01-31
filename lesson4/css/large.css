@@ -1,0 +1,16 @@
+@media only screen and (min-width: 64rem){
+	nav ul li a{
+		padding: .6rem 1rem;
+	}
+	h2{
+		font-size: 3em;
+	}
+
+	main, footer{
+		width: 55rem;
+	}
+
+	header img{
+		width:30%;
+	}
+}

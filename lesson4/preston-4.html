@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="The town of Preston Idaho home page.">
 	<title>Oh Weather | Town of Preston</title>
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/small.css">
+	<link rel="stylesheet" type="text/css" href="./css/medium.css">
+	<link rel="stylesheet" type="text/css" href="./css/large.css">
+	<script src="js/script.js"></script>
 </head>
 <body>
 	<header>
 		<img src="../lesson3/img/logo.png" alt="Oh Weather Logo">
-		<div id="motto">Oh what a wonderful world...</div>
+		<div id="motto">For crying out cloud!</div>
+		<nav class="clearfix">
+			<button id="menuButton" onclick="toggleMenu()"><span id="hamburger">&#9776;</span><span id="close" class="hide">&#10005;</span> <span id="menuLabel">Menu</span></button>
+        	<ul id="primaryNav" class="hide">
+	            <li class="active"><a href="#">Home</a></li>
+	            <li><a href="#">Preston</a></li>
+	            <li><a href="#">Soda Springs</a></li>
+	            <li><a href="#">Fish Haven</a></li>
+	            <li><a href="#">Storm Center</a></li>
+	            <li><a href="#">Gallery</a></li>     
+        	</ul>
+		</nav>
 	</header>
 	<main>
-		<h1>Preston Idaho</h1>
+		<h2>Preston Idaho</h2>
 		<div class="homeBox">Hero w/ weather summary</div>
 		<div class="homeBox">5 Day Forecast</div>
 		<div class="homeBox">Article</div>
@@ -19,6 +38,8 @@
 		<p>&copy;Oh Weather | Attributions | Abigail Napier</p>
 		<p id="date"></p>
 	</footer>
-
+	<script>
+		getDate();
+	</script>
 </body>
 </html>
