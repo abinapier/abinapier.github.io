@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="The town of Preston Idaho home page.">
+	<title>Oh Weather | Town of Preston</title>
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/small.css">
+	<link rel="stylesheet" type="text/css" href="./css/medium.css">
+	<link rel="stylesheet" type="text/css" href="./css/large.css">
+	<link rel="shortcut icon" href="./favicon.ico">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div id="banner">
+		<p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+	</div>
+	<header>
+		<img src="../lesson3/img/logo.png" alt="Oh Weather Logo">
+		<div id="motto">For crying out cloud!</div>
+		<nav class="clearfix">
+			<button id="menuButton" onclick="toggleMenu()"><span id="hamburger">&#9776;</span><span id="close" class="hide">&#10005;</span> <span id="menuLabel">Menu</span></button>
+        	<ul id="primaryNav" class="hide">
+	            <li><a href="#">Home</a></li>
+	            <li class="active"><a href="#">Preston</a></li>
+	            <li><a href="#">Soda Springs</a></li>
+	            <li><a href="#">Fish Haven</a></li>
+	            <li><a href="#">Storm Center</a></li>
+	            <li><a href="#">Gallery</a></li>     
+        	</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Preston Idaho</h1>
+		<div id="hero">
+			<img src="images/hero.jpg" alt="Wildflowers with mountain range in background.">
+			<div id="weatherSummary">
+				<h2>Weather Summary</h2>
+				<div id="curWeather">
+					<div class="left">Currently:</div>
+					<div class="right">Sunny</div>
+					<div class="left">High:</div>
+					<div class="right">63 &deg;F</div>
+					<div class="left">Wind Chill:</div>
+					<div class="right">2 &deg;F</div>
+					<div class="left">Humidity:</div>
+					<div class="right">24%</div>
+					<div class="left">Wind Speed:</div>
+					<div class="right">5 mph</div>
+				</div>
+			</div>
+		</div>
+		<div id="fiveDay">
+			<h2>5 Day Forecast</h2>
+			<table>
+				<tr>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thur</th>
+					<th>Fri</th>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/sunny.png" alt="sun icon">
+					</td>
+					<td>
+						<img src="images/overcast.png" alt="overcast icon">
+					</td>
+					<td>
+						<img src="images/rain.png" alt="rain icon">
+					</td>
+					<td>
+						<img src="images/sunny.png" alt="sun icon">
+					</td>
+					<td>
+						<img src="images/thunder.png" alt="thunder icon">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>80&deg;F</p>
+					</td>
+					<td>
+						<p>53&deg;F</p>
+					</td>
+					<td>
+						<p>50&deg;F</p>
+					</td>
+					<td>
+						<p>76&deg;F</p>
+					</td>
+					<td>
+						<p>63&deg;F</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<article id="article">
+			<h2>Community Flips over Pancakes</h2>
+			<h3>By Suzie Que</h3>
+			<p class="full"><img src="images/pancake.jpg" alt="woman with apron flipping pancakes">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At erat pellentesque adipiscing commodo elit at imperdiet dui. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Pretium fusce id velit ut tortor pretium viverra suspendisse potenti. Ornare arcu dui vivamus arcu felis bibendum. Consequat ac felis donec et odio. Neque aliquam vestibulum morbi blandit. Ante in nibh mauris cursus mattis molestie a iaculis. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Ac ut consequat semper viverra nam libero justo. Massa ultricies mi quis hendrerit dolor magna. Quis hendrerit dolor magna eget est. Nulla aliquet porttitor lacus luctus. Urna nunc id cursus metus aliquam. Mattis enim ut tellus elementum sagittis vitae et. Et egestas quis ipsum suspendisse ultrices gravida. Bibendum neque egestas congue quisque egestas.</p>
+			<p class="full">Pulvinar etiam non quam lacus. Turpis massa sed elementum tempus egestas sed sed. Posuere ac ut consequat semper viverra nam libero justo laoreet. Id faucibus nisl tincidunt eget nullam non nisi est sit. Volutpat sed cras ornare arcu dui vivamus arcu felis. Sagittis purus sit amet volutpat. Tincidunt id aliquet risus feugiat in ante metus dictum. Semper quis lectus nulla at volutpat diam ut venenatis. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Faucibus pulvinar elementum integer enim neque volutpat ac.</p>
+			<p id="preview"><img src="images/pancake.jpg" alt="woman with apron flipping pancakes">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At erat pellentesque adipiscing commodo elit at imperdiet dui. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Pretium fusce id velit ut tortor pretium viverra suspendisse potenti. Ornare arcu dui vivamus arcu felis bibendum. Consequat ac felis donec et odio. Neque aliquam vestibulum morbi blandit. Ante in nibh mauris cursus mattis molestie a iaculis. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus...<a href="#article" onclick="showArticle()">continue to full article</a></p>
+		</article>
+		<div id="contact">
+			<img src="images/map.jpg" alt="Map of southern Idaho">
+			<h4>Oh, Weather</h4>
+			<p>&#x1F4CD; 30 N 1st E<br>Preston, ID 83263</p>
+			<p>&phone; (888) 888-8888</p>
+			<p>&#9993; hello@ohweather.com</p>
+			<p>
+				<a href="https://facebook.com" target="_blank"><img src="images/facebook.png"></a>
+				<a href="https://twitter.com" target="_blank"><img src="images/twitter.png"></a>
+				<a href="https://www.instagram.com" target="_blank"><img src="images/insta.png"></a>
+			</p>
+		</div>
+	</main>
+	<footer>
+		<p>&copy;Oh Weather | Attributions | Abigail Napier</p>
+		<p id="date"></p>
+	</footer>
+	<script>
+		getDate();
+	</script>
+</body>
+</html> 
