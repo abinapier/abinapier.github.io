@@ -14,7 +14,6 @@
 		border-collapse: collapse;
 	}
 	nav ul li {
-		/*float: left;*/
 		display:inline-block;
 		margin:0;
 	}
