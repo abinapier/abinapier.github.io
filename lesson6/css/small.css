@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans&display=swap');
 
 img{
 	max-width: 100%;
@@ -100,13 +99,6 @@ nav ul li a:hover{
 nav ul.hide, nav button #hamburger.hide, nav button #close.hide{display:none;}
 
 
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-
 main{
 	margin: auto;
 }
@@ -151,7 +143,7 @@ main{
 #hero{
 	position: relative;
 }
-#hero img{
+#hero picture{
 	position:relative;
 }
 
@@ -159,23 +151,23 @@ main{
 	display: none;
 }
 
-#fiveDay th{
+table th{
 	background-color: #1da6d3;
 	padding:3px;
 	width:70px;
 }
 
-#fiveDay td{
+table td{
 	background-color: #eaf6ff;
 	text-align: center;
 }
 
-#fiveDay td img{
+table td img{
 	width:50px;
 	padding:3px;
 
 }
-#fiveDay td p{
+table td p{
 	margin:0;
 }
 table{

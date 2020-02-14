@@ -60,10 +60,11 @@
 	#contact img#map{
 		display:block;
 		width:150px;
-		padding:5px;
+		margin:5px;
 	}
 	#fiveDay{
 		display:block;
+		margin: auto;
 	}
 
 }

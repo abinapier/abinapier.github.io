@@ -51,4 +51,7 @@ function showBanner(){
 	}
 }
 
+getDate();
+showBanner();
+
 

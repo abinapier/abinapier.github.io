@@ -10,7 +10,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/medium.css">
 	<link rel="stylesheet" type="text/css" href="./css/large.css">
 	<link rel="shortcut icon" href="./favicon.ico">
-	<script src="js/script.js"></script>
 </head>
 <body>
 	<div id="banner">
@@ -19,7 +18,7 @@
 	<header>
 		<img src="../lesson3/img/logo.png" alt="Oh Weather Logo">
 		<div id="motto">For crying out cloud!</div>
-		<nav class="clearfix">
+		<nav>
 			<button id="menuButton" onclick="toggleMenu()"><span id="hamburger">&#9776;</span><span id="close" class="hide">&#10005;</span> <span id="menuLabel">Menu</span></button>
         	<ul id="primaryNav" class="hide">
 	            <li><a href="#">Home</a></li>
@@ -34,16 +33,20 @@
 	<main>
 		<h1>Preston Idaho</h1>
 		<div id="hero">
-			<img src="images/hero.jpg" alt="Wildflowers with mountain range in background.">
+			<picture>
+				<source media="(max-width: 656px)" srcset="images/hero656.jpg">
+				<source media="(max-width: 1015px)" srcset="images/hero689.jpg">
+				<img src="images/hero1015.jpg" alt="Wildflowers with mountain range in background.">
+			</picture>
 			<div id="weatherSummary">
 				<h2>Weather Summary</h2>
 				<div id="curWeather">
 					<div class="left">Currently:</div>
 					<div class="right">Sunny</div>
 					<div class="left">High:</div>
-					<div class="right">63 &deg;F</div>
+					<div class="right">43 &deg;F</div>
 					<div class="left">Wind Chill:</div>
-					<div class="right">2 &deg;F</div>
+					<div class="right"></div>
 					<div class="left">Humidity:</div>
 					<div class="right">24%</div>
 					<div class="left">Wind Speed:</div>
@@ -97,7 +100,7 @@
 				</tr>
 			</table>
 		</div>
-		<article id="article">
+		<article>
 			<h2>Community Flips over Pancakes</h2>
 			<h3>By Suzie Que</h3>
 			<p class="full"><img src="images/pancake.jpg" alt="woman with apron flipping pancakes">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At erat pellentesque adipiscing commodo elit at imperdiet dui. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Pretium fusce id velit ut tortor pretium viverra suspendisse potenti. Ornare arcu dui vivamus arcu felis bibendum. Consequat ac felis donec et odio. Neque aliquam vestibulum morbi blandit. Ante in nibh mauris cursus mattis molestie a iaculis. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Ac ut consequat semper viverra nam libero justo. Massa ultricies mi quis hendrerit dolor magna. Quis hendrerit dolor magna eget est. Nulla aliquet porttitor lacus luctus. Urna nunc id cursus metus aliquam. Mattis enim ut tellus elementum sagittis vitae et. Et egestas quis ipsum suspendisse ultrices gravida. Bibendum neque egestas congue quisque egestas.</p>
@@ -124,9 +127,18 @@
 		<p>&copy;Oh Weather | Attributions | Abigail Napier</p>
 		<p id="date"></p>
 	</footer>
+	<script src="js/script.js"></script>
+	<script src="js/windchill.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 	<script>
-		getDate();
-		showBanner();
+		WebFont.load({
+  			google: {
+    			families: [
+       				'Baloo Paaji', 
+       				'Open Sans'
+    			]
+ 			}
+		});
 	</script>
 </body>
 </html> 
