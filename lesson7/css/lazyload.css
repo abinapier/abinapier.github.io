@@ -1,0 +1,22 @@
+div {
+	display: grid;
+	grid-template-columns: 1fr;
+	max-width: 800px;
+	margin: auto;
+}
+
+picture img[data-src] {
+	filter: blur(0.2em);
+}
+
+picture img{
+	max-width: 100%;
+	filter: blur(0em);
+	transition: filter 0.5s;
+}
+
+body{
+	text-align: center;
+	font-family: sans-serif;
+	background-color: #fae8d4;
+}
