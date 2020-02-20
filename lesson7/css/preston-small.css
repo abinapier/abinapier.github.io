@@ -1,0 +1,217 @@
+
+img{
+	max-width: 100%;
+}
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/*Mobile View and standard styles*/
+body{
+	font-family: "Open Sans", sans-serif;
+	background-color: #d9e9f4;
+	color: #232528;
+}
+
+h1, h2, h3 {
+	font-family: "Baloo Paaji", sans-serif;
+	text-align: center;
+}
+
+h1{
+	font-size: 7vw;
+	color:#115270;
+}
+h2{
+	font-size: 1.3em;
+	margin-bottom: 2px;
+}
+h3{
+	font-size: .8em;
+	font-style: italic;
+	color:#115270;
+}
+h4{
+	margin-top: 0;
+}
+
+header, footer{
+	background-color: #232528;
+	text-align: center;
+	color: #eaf6ff;
+}
+header img {
+	max-width: 75%;
+	padding:10px;
+}
+header #motto{
+	font-style: italic;
+}
+nav {
+	background-color: rgba(0,0,0,.2);
+	margin-top: 10px;
+}
+
+nav button{
+	margin:.2rem 2%;
+	background-color: transparent;
+	border:none;
+	font-size: 1.6rem;
+	color:#eaf6ff;
+	font-family: "Open Sans", sans-serif;
+	width:100%;
+	text-align: center;
+	padding-bottom:8px;
+	padding-top: 3px;
+	margin:0;
+}
+nav button:hover{
+	cursor: pointer;
+}
+
+nav button #menuLabel{
+	font-size: 1.2rem;
+}
+
+nav ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+
+nav ul li a{
+	display: block;
+	padding: .8rem 2%;
+	text-decoration: none;
+	color:#eaf6ff;
+	border-top: 1px solid rgba(234, 246, 255,0.2);
+}
+nav ul li.active a{
+	background-color: rgba(234, 246, 255,0.2);
+}
+nav ul li a:hover{
+	background-color: rgba(234, 246, 255,0.2);
+	color:#1da6d3;
+}
+nav ul.hide, nav button #hamburger.hide, nav button #close.hide{display:none;}
+
+
+main{
+	margin: auto;
+}
+#banner{
+	background-color: #edab31;
+	text-align: center;
+	font-weight: bold;
+	margin:0;
+	padding:8px;
+	display: none;
+}
+
+#weatherSummary{
+	background-color: rgba(29, 166, 211, 0.7);
+	width: 200px;
+	padding:5px;
+	position: absolute;
+	top: 10px;
+	left:20px;
+	font-size: 90%;
+}
+
+#weatherSummary h2{
+	margin-top:0;
+	margin-bottom:5px;
+}
+.left{
+	text-align: right;
+	font-weight: bold;
+}
+
+.right{
+	color: #eaf6ff;
+}
+#curWeather{
+	display: grid;
+	grid-template-columns: 1.1fr 1fr;
+	grid-gap: 5px;
+
+}
+
+#hero{
+	position: relative;
+}
+#hero picture{
+	position:relative;
+}
+
+#fiveDay{
+	display: none;
+}
+
+table th{
+	background-color: #1da6d3;
+	padding:3px;
+	width:70px;
+}
+
+table td{
+	background-color: #eaf6ff;
+	text-align: center;
+}
+
+table td img{
+	width:50px;
+	padding:3px;
+
+}
+table td p{
+	margin:0;
+}
+table{
+	margin: auto;
+}
+
+article{
+	background-color: #eaf6ff;
+	padding:10px;
+	margin-top:10px;
+}
+
+article p{
+	line-height: 1.5;
+}
+article h2{
+	margin-top:5px;
+}
+
+.full {
+	display: none;
+}
+footer{
+ 	font-size: .8em;
+ 	padding:0px;
+ 	padding-bottom: 10px;
+}
+
+
+#contact{
+	background-color: #101213;
+	color: #eaf6ff;
+	padding:5px;
+}
+
+#contact #map{
+	display: none;
+	margin:0;
+}
+
+#contact img.social{
+	height: 30px;
+	padding:5px;
+}
+
+
+

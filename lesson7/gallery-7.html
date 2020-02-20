@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="The town of Preston Idaho weather and information home page.">
+	<title>Oh Weather | Gallery</title>
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/small.css">
+	<link rel="stylesheet" type="text/css" href="./css/medium.css">
+	<link rel="stylesheet" type="text/css" href="./css/large.css">
+	<link rel="shortcut icon" href="./favicon.ico">
+</head>
+<body>
+	<div id="banner">
+		<p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+	</div>
+	<header>
+		<img src="../lesson3/img/logo.png" alt="Oh Weather Logo">
+		<div id="motto">For crying out cloud!</div>
+		<nav>
+			<button id="menuButton" onclick="toggleMenu()"><span id="hamburger">&#9776;</span><span id="close" class="hide">&#10005;</span> <span id="menuLabel">Menu</span></button>
+        	<ul id="primaryNav" class="hide">
+	            <li><a href="#">Home</a></li>
+	            <li><a href="./preston-7.html">Preston</a></li>
+	            <li><a href="#">Soda Springs</a></li>
+	            <li><a href="#">Fish Haven</a></li>
+	            <li><a href="#">Storm Center</a></li>
+	            <li class="active"><a href="#">Gallery</a></li>     
+        	</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Gallery</h1>
+		<div>
+			<figure>
+				<img src="./images/placeholder.jpg" data-src="./images/autumn-mountain.jpg" alt="Autumn trees and mountain.">
+				<figcaption>Mountain with trees in autumn on a cloudy day.</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./images/placeholder.jpg" data-src="./images/cloud-sun-sky.jpg" alt="clouds in blue sky with sun">
+				<figcaption>Partly cloudy blue sky.</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./images/placeholder.jpg" data-src="./images/field-sunshine.jpg" alt="sunshine on field and tree.">
+				<figcaption>Sunshine hits the grass fields.</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./images/placeholder.jpg" data-src="./images/frost.jpg" alt="frost covered path">
+				<figcaption>Frost covered path next to a field.</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./images/placeholder.jpg" data-src="./images/night-lightening.jpg" alt="ligntning hits at night">
+				<figcaption>Lighting strikes at night neat Preston.</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./images/placeholder.jpg" data-src="./images/rain-lightening-field.jpg" alt="rain and ligntning in field">
+				<figcaption>A rain and thunderstorm comes down on a field.</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./images/placeholder.jpg" data-src="./images/rainbow-mountain.jpg" alt="rainbow over cloudy mountain">
+				<figcaption>A rainbow peeks through the clouds over a mountain.</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./images/placeholder.jpg" data-src="./images/snow-cabin.jpg" alt="small cabin in snow">
+				<figcaption>A small cabin is blaketed in snow.</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./images/placeholder.jpg" data-src="./images/fog.jpg" alt="fog over forest">
+				<figcaption>Fog rises up from the pines.</figcaption>
+			</figure>
+		</div>
+	</main>
+	<footer>
+		<div id="contact">
+			<div id="map">
+				<img src="images/map.jpg" alt="Map of southern Idaho">
+			</div>
+			<div id="info">
+				<h4>Oh, Weather</h4>
+				<p>&#x1F4CD; 30 N 1st E<br>Preston, ID 83263</p>
+				<p>&phone; (888) 888-8888</p>
+				<p>&#9993; hello@ohweather.com</p>
+				<p>
+					<a href="https://facebook.com" target="_blank"><img src="../lesson6/images/facebook.png" alt="facebook icon" class="social"></a>
+					<a href="https://twitter.com" target="_blank"><img src="../lesson6/images/twitter.png" alt="twitter icon" class="social"></a>
+					<a href="https://www.instagram.com" target="_blank"><img src="../lesson6/images/insta.png" alt="instagram icon" class="social"></a>
+				</p>
+			</div>
+		</div>
+		<p>&copy;Oh Weather | Attributions | Abigail Napier</p>
+		<p id="date"></p>
+	</footer>
+	<script src="js/script.js"></script>
+	<script src="js/lazyload.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>
+		WebFont.load({
+  			google: {
+    			families: [
+       				'Baloo Paaji', 
+       				'Open Sans'
+    			]
+ 			}
+		});
+	</script>
+</body>
+</html> 

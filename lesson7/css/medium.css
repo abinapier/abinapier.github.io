@@ -1,0 +1,61 @@
+@media only screen and (min-width: 41em){
+	nav button {display:none;}
+	nav ul.hide{
+		display: inline;
+	}
+	nav{
+		text-align: center;
+	}
+	nav ul {
+		display: inline;
+		margin-left: 2%;
+		text-align: center;
+		margin: auto;
+		border-collapse: collapse;
+	}
+	nav ul li {
+		display:inline-block;
+		margin:0;
+	}
+
+	nav ul li a {
+		border: none;
+		padding: .8rem 1rem;
+	}
+
+	h1{
+		font-size: 5vw;
+	}
+	main div{
+		grid-template-columns: 1fr 1fr;
+	}
+	main, footer{
+		max-width:43rem;
+	}
+	footer{
+		margin: auto;
+		padding:5px;
+		margin-top: 15px;
+	}
+
+	header img{
+		width: 50%;
+	}
+
+	#contact{
+		display:flex;
+		justify-content: center;
+	}
+
+	#contact #map{
+		display:block;
+		width:159px;
+		margin:5px;
+		height: auto;
+	}
+	#fiveDay{
+		display:block;
+		margin: auto;
+	}
+
+}

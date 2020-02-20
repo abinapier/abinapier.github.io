@@ -1,0 +1,70 @@
+@media only screen and (min-width: 41em){
+	nav button {display:none;}
+	nav ul.hide{
+		display: inline;
+	}
+	nav{
+		text-align: center;
+	}
+	nav ul {
+		display: inline;
+		margin-left: 2%;
+		text-align: center;
+		margin: auto;
+		border-collapse: collapse;
+	}
+	nav ul li {
+		display:inline-block;
+		margin:0;
+	}
+
+	nav ul li a {
+		border: none;
+		padding: .8rem 1rem;
+	}
+
+	h1{
+		font-size: 5vw;
+	}
+
+	main, footer{
+		max-width:43rem;
+	}
+	footer{
+		margin: auto;
+		padding:5px;
+		margin-top: 0;
+	}
+
+	header img{
+		width: 50%;
+	}
+	#weatherSummary{
+		top: 20px;
+		left:30px;
+	}
+
+	article img{
+		width:45%;
+		float: right;
+		padding:5px;
+	}
+	img.preview{
+		width:200px;
+	}
+	#contact{
+		display:flex;
+		justify-content: center;
+	}
+
+	#contact #map{
+		display:block;
+		width:150px;
+		margin:5px;
+	}
+	#fiveDay{
+		display:block;
+		margin: auto;
+	}
+
+}
