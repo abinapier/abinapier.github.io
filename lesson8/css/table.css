@@ -39,6 +39,6 @@ tbody tr:nth-child(even) td{
 	background-color: #e7f0ed;
 }
 
-tbody tr:nth-child(6) td:first-child{
+tbody span{
 	font-style: italic;
 }
