@@ -1,0 +1,233 @@
+
+img{
+	max-width: 100%;
+}
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/*Mobile View and standard styles*/
+body{
+	font-family: "Open Sans", sans-serif;
+	background-color: #d9e9f4;
+	color: #232528;
+}
+
+h1, h2, h3 {
+	font-family: "Baloo Paaji", sans-serif;
+	text-align: center;
+}
+
+h1{
+	font-size: 7vw;
+	color:#115270;
+}
+h2{
+	font-size: 1.3em;
+	margin-bottom: 2px;
+}
+h3{
+	font-size: .8em;
+	font-style: italic;
+	color:#115270;
+}
+h4{
+	margin-top: 0;
+}
+
+header, footer, form{
+	background-color: #232528;
+	text-align: center;
+	color: #eaf6ff;
+}
+header img {
+	max-width: 75%;
+	padding:10px;
+}
+header #motto{
+	font-style: italic;
+}
+nav {
+	background-color: rgba(0,0,0,.2);
+	margin-top: 10px;
+}
+
+nav button{
+	margin:.2rem 2%;
+	background-color: transparent;
+	border:none;
+	font-size: 1.6rem;
+	color:#eaf6ff;
+	font-family: "Open Sans", sans-serif;
+	width:100%;
+	text-align: center;
+	padding-bottom:8px;
+	padding-top: 3px;
+	margin:0;
+}
+nav button:hover{
+	cursor: pointer;
+}
+
+nav button #menuLabel{
+	font-size: 1.2rem;
+}
+
+nav ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+
+nav ul li a{
+	display: block;
+	padding: .8rem 2%;
+	text-decoration: none;
+	color:#eaf6ff;
+	border-top: 1px solid rgba(234, 246, 255,0.2);
+}
+nav ul li.active a{
+	background-color: rgba(234, 246, 255,0.2);
+}
+nav ul li a:hover{
+	background-color: rgba(234, 246, 255,0.2);
+	color:#1da6d3;
+}
+nav ul.hide, nav button #hamburger.hide, nav button #close.hide{display:none;}
+
+main{
+	margin:auto;
+	max-width: 400px;
+}
+
+main form{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 15px;
+	margin:auto;
+	padding: 15px;
+	max-width: 400px;
+	text-align: left;
+}
+#banner{
+	background-color: #edab31;
+	text-align: center;
+	font-weight: bold;
+	margin:0;
+	padding:8px;
+	display: none;
+}
+
+#contact{
+	background-color: #101213;
+	color: #eaf6ff;
+	padding:5px;
+}
+
+#contact #map{
+	display: none;
+	margin:0;
+}
+
+#contact img.social{
+	height: 30px;
+	padding:5px;
+}
+
+#date{
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+
+main div{
+	margin:auto;
+	background-color: #eaf6ff;
+}
+
+
+footer{
+	margin-top: 15px;
+}
+
+label, input, select, textarea{
+	display: block;
+	width:100%;
+}
+
+form fieldset{
+	border: 1px solid #eaf6ff;
+}
+
+fieldset legend{
+	color:#1da6d3;
+	padding: 0 4px;
+}
+
+form label{
+	font-size: 80%;
+	padding-top: 12px;
+}
+
+label label{
+	font-size: 110%;
+	padding-top: 3px;
+}
+label span{
+	font-size: 110%;
+}
+
+input[type="submit"], div button{
+	background-color: #1da6d3;
+	color:white;
+	width: 50%;
+	padding: 10px 0px;
+	margin-left: 16px;
+	transition: background-color linear .2s, transform linear .2s;
+}
+input[type="submit"]:hover{
+	cursor:pointer;
+	background-color: white;
+	color:#1da6d3;
+}
+input[type="submit"]:active{
+	transform: scale(0.98);
+}
+
+
+form, fieldset, input, textarea{
+	border-radius: 5px;
+}
+
+input, textarea, select{
+	border: none;
+	padding: 8px 5px;
+	color: #115270;
+}
+
+.inline{
+	width: initial;
+	display: inline-block;
+	padding:0;
+}
+input[type="range"]{
+	width: 80%;
+}
+
+div button, div{
+	margin:0;
+	margin:auto;
+	text-align: center;
+	border: none;
+	margin: 10px;
+}
+
+div button a{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
