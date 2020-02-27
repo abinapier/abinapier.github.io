@@ -216,17 +216,12 @@ input[type="range"]{
 	width: 80%;
 }
 
-div button, div{
+div{
 	margin:0;
 	margin:auto;
 	text-align: center;
 	border: none;
 	margin: 10px;
-}
-
-div button a{
-	text-decoration: none;
-	color: inherit;
 }
 
 
