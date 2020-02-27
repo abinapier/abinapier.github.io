@@ -171,8 +171,8 @@ form label{
 	padding-top: 12px;
 }
 
-label label{
-	font-size: 110%;
+label.tight{
+	font-size: 100%;
 	padding-top: 3px;
 }
 label span{
