@@ -1,0 +1,60 @@
+body{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	background-color: #153b50;
+}
+
+h1, h2{
+	font-family: 'Abril Fatface', serif;
+	font-weight: normal;
+}
+h1{
+	color: white;
+}
+
+h2{
+	color: #00bfb3;
+	margin: 8px 0px;
+}
+main div{
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 95%;
+	margin: auto;
+	grid-gap: 10px;
+}
+
+main div section {
+	background-color: white;
+	color: #153b50;
+	padding: 10px;
+}
+
+main div section img{
+	width: 80%;
+}
+
+main div section p{
+	margin: 5px 0px;
+}
+
+footer {
+	background-color: #00bfb3;
+	color: white;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+/*Tablet ---- Medium */
+@media only screen and (min-width: 35em){
+	main div{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+/*Desktop ---- Large */
+@media only screen and (min-width: 55rem){
+	main div{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
