@@ -16,7 +16,7 @@ h1 {
 	font-weight: normal;
 	text-align: center;
 	padding-top: 12px;
-	display: inline;
+	display: inline-block;
 	color: #ffffff;
 }
 
@@ -33,7 +33,7 @@ body {
 	font-family: "Raleway", sans-serif;
 	color: #2c302e;
 	background-color: #ffffff;
-	margin: 0px 300px;
+	margin: auto;
 	padding-top: 14px;
 	text-align: center;
 	overflow: hidden;
@@ -44,14 +44,19 @@ main {
 	padding: 10px;
 	
 }
+main, header, #color-block, footer{
+	width: 400px;
+	max-width: 100%;
+	margin: auto;
+}
 
 #colorBlock{
 	background-color: #e55261;
 	height: 80px;
-	width:100%;
-	position: absolute;
+	position: relative;
 	z-index: -1;
 	border-radius: 8px;
+	top: 100px;
 }
 
 p {
@@ -79,14 +84,13 @@ a {
 footer a {
 	color: #ffffff;
 }
-@media screen and (max-width: 700px) {
-	body {
-		margin: 0px 30px;
-	}
-}
-@media screen and (min-width: 32.5em) {
+
+@media screen and (min-width: 329px) {
 	img {
 		float: right;
+	}
+	main, header, #colorBlock, footer{
+		width: 600px;
 	}
 }
 
