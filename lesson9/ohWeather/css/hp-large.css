@@ -1,0 +1,25 @@
+@media only screen and (min-width: 64rem){
+	article{
+		grid-template-columns: 1fr 4fr;
+		grid-gap: 30px;
+		padding:30px;
+	}
+
+	article div{
+		align-self: end;
+	}
+
+	section>div{
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 20px;
+	}
+
+	section>div>div{
+		flex-wrap: wrap;
+	}
+
+	section>div>div>div{
+		width:100%;
+	}
+
+}
