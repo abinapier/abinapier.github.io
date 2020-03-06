@@ -1,0 +1,18 @@
+@media only screen and (min-width: 64rem){
+	
+	h1{
+		font-size: 3em;
+	}
+	main div{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main, footer{
+		max-width: 75rem;
+	}
+
+
+	main div figure:hover{
+		box-shadow: 2px 2px 15px black;
+	}
+}

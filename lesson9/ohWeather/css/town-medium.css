@@ -1,0 +1,21 @@
+@media only screen and (min-width: 41em){
+	#weatherSummary{
+		top: 20px;
+		left:30px;
+	}
+
+	article img{
+		width:45%;
+		float: right;
+		padding:5px;
+	}
+	img.preview{
+		width:200px;
+	}
+	
+	#fiveDay{
+		display:block;
+		margin: auto;
+	}
+
+}
