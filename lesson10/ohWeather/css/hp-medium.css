@@ -1,0 +1,21 @@
+@media only screen and (min-width: 41em){
+	article{
+		grid-template-columns: 1fr 2fr;
+	}
+
+	section>div>div{
+		display: flex;
+		flex-direction: row;
+		align-content: center;
+	}
+
+	section>div>div:nth-child(even){
+		flex-direction: row-reverse;
+	}
+
+	section>div>div>div{
+		width:50%;
+		align-self: center;
+	}
+
+}

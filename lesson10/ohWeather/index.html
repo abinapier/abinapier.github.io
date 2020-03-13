@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Oh, Weather Homepage, find weather for Preston, ID, Fish Haven, ID, and Soda Springs, ID.">
+	<title>Oh Weather | Home Page</title>
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/small.css">
+	<link rel="stylesheet" type="text/css" href="./css/medium.css">
+	<link rel="stylesheet" type="text/css" href="./css/large.css">
+	<link rel="stylesheet" type="text/css" href="./css/hp-small.css">
+	<link rel="stylesheet" type="text/css" href="./css/hp-medium.css">
+	<link rel="stylesheet" type="text/css" href="./css/hp-large.css">
+	<link rel="shortcut icon" href="./favicon.ico">
+</head>
+<body>
+	<header>
+		<img src="./images/logo.png" alt="Oh Weather Logo">
+		<div id="motto">For crying out cloud!</div>
+		<nav>
+			<button id="menuButton" onclick="toggleMenu()"><span id="hamburger">&#9776;</span><span id="close" class="hide">&#10005;</span> <span id="menuLabel">Menu</span></button>
+        	<ul id="primaryNav" class="hide">
+	            <li class="active"><a href="#">Home</a></li>
+	            <li><a href="./preston.html">Preston</a></li>
+	            <li><a href="#">Soda Springs</a></li>
+	            <li><a href="#">Fish Haven</a></li>
+	            <li><a href="./stormcenter.html">Storm Center</a></li>
+	            <li><a href="./gallery.html">Gallery</a></li>     
+        	</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Home</h1>
+		<article>
+			<div>
+				<img src="images/article-hp.jpg" alt="River with snow on the banks">
+			</div>
+			<div>
+				<h2>Spring Comes to Idaho</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#">Read More</a></p>
+			</div>
+		</article>
+
+		<section>
+			<h2>Towns</h2>
+			<div class="towns">
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div id="contact">
+			<div id="map">
+				<img src="./images/map.jpg" alt="Map of southern Idaho">
+			</div>
+			<div id="info">
+				<h4>Oh, Weather</h4>
+				<p>&#x1F4CD; 30 N 1st E<br>Preston, ID 83263</p>
+				<p>&phone; (888) 888-8888</p>
+				<p>&#9993; hello@ohweather.com</p>
+				<p>
+					<a href="https://facebook.com" target="_blank"><img src="./images/facebook.png" alt="facebook icon" class="social"></a>
+					<a href="https://twitter.com" target="_blank"><img src="./images/twitter.png" alt="twitter icon" class="social"></a>
+					<a href="https://www.instagram.com" target="_blank"><img src="./images/insta.png" alt="instagram icon" class="social"></a>
+				</p>
+			</div>
+		</div>
+		<p>&copy;Oh Weather | Attributions | Abigail Napier</p>
+		<p id="date"></p>
+	</footer>
+	<script src="js/toggle.js"></script>
+	<script src="js/hp.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>
+		WebFont.load({
+  			google: {
+    			families: [
+       				'Baloo Paaji', 
+       				'Open Sans'
+    			]
+ 			}
+		});
+	</script>
+</body>
+</html> 
