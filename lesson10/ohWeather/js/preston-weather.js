@@ -44,12 +44,14 @@ fetch(currentURL)
 			const temp = parseInt(jsObject.list[entryCount].main.temp)+ "°F";
 
 			const dayTable = document.getElementsByClassName("day")[dayCount];
-			const icon = document.getElementsByClassName("icon")[dayCount];
+			const iconTable = document.getElementsByClassName("icon")[dayCount];
 			const tempTable = document.getElementsByClassName("tempfive")[dayCount];
+      const icon = document.createElement("img");
 
 			dayTable.textContent = dayStr;
 			icon.src = imagesrc;
 			icon.alt = imagealt;
+      iconTable.appendChild(icon);
 			tempTable.textContent = temp;
 			dayCount++;
 		}
