@@ -1,0 +1,142 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="The town of Preston Idaho weather and information home page.">
+	<title>Oh Weather | Town of Preston</title>
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/small.css">
+	<link rel="stylesheet" type="text/css" href="./css/medium.css">
+	<link rel="stylesheet" type="text/css" href="./css/large.css">
+	<link rel="stylesheet" type="text/css" href="./css/town-small.css">
+	<link rel="stylesheet" type="text/css" href="./css/town-medium.css">
+	<link rel="stylesheet" type="text/css" href="./css/town-large.css">
+	<link rel="shortcut icon" href="./favicon.ico">
+</head>
+<body>
+	<div id="banner">
+		<p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+	</div>
+	<header>
+		<img src="./images/logo.png" alt="Oh Weather Logo">
+		<div id="motto">For crying out cloud!</div>
+		<nav>
+			<button id="menuButton" onclick="toggleMenu()"><span id="hamburger">&#9776;</span><span id="close" class="hide">&#10005;</span> <span id="menuLabel">Menu</span></button>
+        	<ul id="primaryNav" class="hide">
+	            <li><a href="./index.html">Home</a></li>
+	            <li class="active"><a href="#">Preston</a></li>
+	            <li><a href="#">Soda Springs</a></li>
+	            <li><a href="#">Fish Haven</a></li>
+	            <li><a href="./stormcenter.html">Storm Center</a></li>
+	            <li><a href="./gallery.html">Gallery</a></li>     
+        	</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Preston Idaho</h1>
+		<div id="hero">
+			<picture>
+				<source media="(max-width: 656px)" srcset="images/hero656.jpg">
+				<source media="(max-width: 1015px)" srcset="images/hero689.jpg">
+				<img src="images/hero1015.jpg" alt="Wildflowers with mountain range in background.">
+			</picture>
+			<div id="weatherSummary">
+				<h2>Weather Summary</h2>
+				<div id="curWeather">
+					<div class="left">Currently:</div>
+					<div class="right"></div>
+					<div class="left"></div>
+					<div class="right"></div>
+					<div class="left">High:</div>
+					<div class="right"></div>
+					<div class="left">Wind Chill:</div>
+					<div class="right"></div>
+					<div class="left">Humidity:</div>
+					<div class="right"></div>
+					<div class="left">Wind Speed:</div>
+					<div class="right"></div>
+				</div>
+			</div>
+		</div>
+		<div id="fiveDay">
+			<h2>5 Day Forecast</h2>
+			<table>
+				<tr>
+					<th class="day"></th>
+					<th class="day"></th>
+					<th class="day"></th>
+					<th class="day"></th>
+					<th class="day"></th>
+				</tr>
+				<tr>
+					<td class="icon">
+					</td>
+					<td class="icon">
+					</td>
+					<td class="icon">
+					</td>
+					<td class="icon">
+					</td>
+					<td class="icon">
+					</td>
+				</tr>
+				<tr>
+					<td class="tempfive">
+					</td>
+					<td class="tempfive">
+					</td>
+					<td class="tempfive">
+					</td>
+					<td class="tempfive">
+					</td>
+					<td class="tempfive">
+					</td>
+				</tr>
+			</table>
+		</div>
+		<article id="article">
+			<h2>Community Flips over Pancakes</h2>
+			<h3>By Suzie Que</h3>
+			<p class="full"><img src="images/pancake.jpg" alt="woman with apron flipping pancakes">Preston's town council has started serving pancakes in the town square every week. "The turn out has been fantastic!" says Mayor Green, "We really feel like this has brought a new sense of community to our town." The town welcomes all to come and enjoy the pancakes, live music and vendors every Saturday morning. It has given small buisness owners in the community a new place to find new customers and increase their networking.</p>
+			<p class="full">Sarah Jones, owner of My Fair Soap, says, "I have been able to double my sales since I began renting a booth at the pancake mornings. I love being out in my community selling what I am passionate about!" There have been about 6 booths at every pancake breakfast this month, and the town is hoping that more will be joinging soon.</p>
+			<p class="full">It's not just small buisnesses that are getting exposure from the breakfasts. Musical groups have been able to share their talents as well. Mike Day of the group Two for Tea said, "It has been amazing getting to play for a live crowd. We don't get too many opportunities to share our music outside of our regular gigs, so this has been great!" And the town people are loving it too. Long time town member George Mike said, "I really feel like our sense of community has gotten stronger with these breakfasts. Everyone is coming out and having a great time!"</p>
+			<p class="preview"><img class="preview" src="images/pancake.jpg" alt="woman with apron flipping pancakes">Preston's town council has started serving pancakes in the town square every week. "The turn out has been fantastic!" says Mayor Green, "We really feel like this has brought a new sense of community to our town." The town welcomes all to come and enjoy the pancakes, live music and vendors every Saturday morning. It has given small buisness owners in the community a new place to find new customers and increase their networking...<br><a href="#article" onclick="showArticle()">continue to full article</a></p>
+		</article>
+	</main>
+	<footer>
+		<div id="contact">
+			<div id="map">
+				<img src="images/map.jpg" alt="Map of southern Idaho">
+			</div>
+			<div id="info">
+				<h4>Oh, Weather</h4>
+				<p>&#x1F4CD; 30 N 1st E<br>Preston, ID 83263</p>
+				<p>&phone; (888) 888-8888</p>
+				<p>&#9993; hello@ohweather.com</p>
+				<p>
+					<a href="https://facebook.com" target="_blank"><img src="./images/facebook.png" alt="facebook icon" class="social"></a>
+					<a href="https://twitter.com" target="_blank"><img src="./images/twitter.png" alt="twitter icon" class="social"></a>
+					<a href="https://www.instagram.com" target="_blank"><img src="./images/insta.png" alt="instagram icon" class="social"></a>
+				</p>
+			</div>
+		</div>
+		<p>&copy;Oh Weather | Weather Data Provided by <a href="https://openweathermap.org/" target="_blank">OpenWeather</a> | Abigail Napier</p>
+		<p id="date"></p>
+	</footer>
+	<script src="js/preston-weather.js"></script>
+	<script src="js/toggle.js"></script>
+	<script src="js/town.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>
+		WebFont.load({
+  			google: {
+    			families: [
+       				'Baloo Paaji', 
+       				'Open Sans'
+    			]
+ 			}
+		});
+	</script>
+</body>
+</html> 

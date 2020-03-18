@@ -1,0 +1,31 @@
+
+/*Mobile View and standard styles*/
+
+
+main{
+	max-width: 400px;
+}
+
+main div{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 15px;
+	margin:auto;
+	padding: 15px;
+
+}
+
+
+main div figure{
+	margin:0;
+	background-color: white;
+}
+
+main div figure figcaption{
+	padding: 5px;
+}
+
+footer{
+	margin-top: 15px;
+}
+
