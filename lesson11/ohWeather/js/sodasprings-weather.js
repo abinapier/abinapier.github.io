@@ -1,5 +1,5 @@
-const currentURL='https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=6dda53eb2f27ab16803fca62cb290f2d';
-const forecastURL='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=6dda53eb2f27ab16803fca62cb290f2d';
+const currentURL='https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=6dda53eb2f27ab16803fca62cb290f2d';
+const forecastURL='https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=6dda53eb2f27ab16803fca62cb290f2d';
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(currentURL)
@@ -21,7 +21,7 @@ fetch(currentURL)
 
 
 
-fetch(forecastURL)
+  fetch(forecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
   	let dayCount = 0;
@@ -59,7 +59,6 @@ fetch(forecastURL)
 	}
   });
 
-
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -67,7 +66,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const towns = jsonObject['towns'];
     for (let i=0; i<towns.length; i++){
-      if(towns[i].name == "Preston"){
+      if(towns[i].name == "Fish Haven"){
         const events = towns[i].events;
         const eventSection = document.getElementsByClassName("events")[0];
         for(let j=0; j<events.length; j++){

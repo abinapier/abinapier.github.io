@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="The town of Preston Idaho weather and information home page.">
-	<title>Oh Weather | Town of Preston</title>
+	<meta name="description" content="The town of Soda Springs Idaho weather and information home page.">
+	<title>Oh Weather | Town of Soda Springs</title>
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="./css/small.css">
 	<link rel="stylesheet" type="text/css" href="./css/medium.css">
@@ -15,9 +15,6 @@
 	<link rel="shortcut icon" href="./favicon.ico">
 </head>
 <body>
-	<div id="banner">
-		<p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
-	</div>
 	<header>
 		<img src="./images/logo.png" alt="Oh Weather Logo">
 		<div id="motto">For crying out cloud!</div>
@@ -25,8 +22,8 @@
 			<button id="menuButton" onclick="toggleMenu()"><span id="hamburger">&#9776;</span><span id="close" class="hide">&#10005;</span> <span id="menuLabel">Menu</span></button>
         	<ul id="primaryNav" class="hide">
 	            <li><a href="./index.html">Home</a></li>
-	            <li class="active"><a href="#">Preston</a></li>
-	            <li><a href="./sodaSprings.html">Soda Springs</a></li>
+	            <li><a href="./preston.html">Preston</a></li>
+	            <li class="active"><a href="#">Soda Springs</a></li>
 	            <li><a href="./fishHaven.html">Fish Haven</a></li>
 	            <li><a href="./stormcenter.html">Storm Center</a></li>
 	            <li><a href="./gallery.html">Gallery</a></li>     
@@ -34,12 +31,12 @@
 		</nav>
 	</header>
 	<main>
-		<h1>Preston Idaho</h1>
+		<h1>Soda Springs, Idaho</h1>
 		<div id="hero">
 			<picture>
-				<source media="(max-width: 656px)" srcset="images/hero656.jpg">
-				<source media="(max-width: 1015px)" srcset="images/hero689.jpg">
-				<img src="images/hero1015.jpg" alt="Wildflowers with mountain range in background.">
+				<source media="(max-width: 656px)" srcset="images/soda656.jpg">
+				<source media="(max-width: 1015px)" srcset="images/soda689.jpg">
+				<img src="images/soda1015.jpg" alt="Grassy hills">
 			</picture>
 			<div id="weatherSummary">
 				<h2>Weather Summary</h2>
@@ -101,12 +98,12 @@
 			</div>
 		</section>
 		<article id="article">
-			<h2>Community Flips over Pancakes</h2>
-			<h3>By Suzie Que</h3>
-			<p class="full"><img src="images/pancake.jpg" alt="woman with apron flipping pancakes">Preston's town council has started serving pancakes in the town square every week. "The turn out has been fantastic!" says Mayor Green, "We really feel like this has brought a new sense of community to our town." The town welcomes all to come and enjoy the pancakes, live music and vendors every Saturday morning. It has given small buisness owners in the community a new place to find new customers and increase their networking.</p>
-			<p class="full">Sarah Jones, owner of My Fair Soap, says, "I have been able to double my sales since I began renting a booth at the pancake mornings. I love being out in my community selling what I am passionate about!" There have been about 6 booths at every pancake breakfast this month, and the town is hoping that more will be joinging soon.</p>
-			<p class="full">It's not just small buisnesses that are getting exposure from the breakfasts. Musical groups have been able to share their talents as well. Mike Day of the group Two for Tea said, "It has been amazing getting to play for a live crowd. We don't get too many opportunities to share our music outside of our regular gigs, so this has been great!" And the town people are loving it too. Long time town member George Mike said, "I really feel like our sense of community has gotten stronger with these breakfasts. Everyone is coming out and having a great time!"</p>
-			<p class="preview"><img class="preview" src="images/pancake.jpg" alt="woman with apron flipping pancakes">Preston's town council has started serving pancakes in the town square every week. "The turn out has been fantastic!" says Mayor Green, "We really feel like this has brought a new sense of community to our town." The town welcomes all to come and enjoy the pancakes, live music and vendors every Saturday morning. It has given small buisness owners in the community a new place to find new customers and increase their networking...<br><a href="#article" onclick="showArticle()">continue to full article</a></p>
+			<h2>Take a Hike</h2>
+			<h3>By James Bean</h3>
+			<p class="full"><img src="images/hike.jpg" alt="woman hiking oregon trail">The weather in town is starting to heat up a little. It might still be too cold for you to ventrue outdoors, but it's never to soon to start planning to. Soda Springs was a landmark for the early travelers along the Oregon Trail, and luckily for you, you can still walk the very trail that they took.</p>
+			<p class="full">I took it upon myself to go and enjoy the beauty of the outdoors while hiking the Oregon Trail. I started out mid-day, since it is still rather cold. I was bundled up, and the sun was high in the sky. There was still some snow patches that were hiding from the sun in the shade of trees, but for the most part the snow had melted into the golden grass around me.</p>
+			<p class="full">I hiked for about 2 hours, walking slowly and taking in the beautiful views. I only saw two other people while I was out, another hiker and a runner. It was incredibly peaceful. If you can brave the cold now, I highly suggest getting out and hiking before it gets much busier.</p>
+			<p class="preview"><img class="preview" src="images/hike.jpg" alt="woman hiking oregon trail">The weather in town is starting to heat up a little. It might still be too cold for you to ventrue outdoors, but it's never to soon to start planning to. Soda Springs was a landmark for the early travelers along the Oregon Trail, and luckily for you, you can still walk the very trail that they took. I took it upon myself to go and enjoy the beauty of the outdoors while hiking the Oregon Trail. I started out mid-day, since it is still rather cold...<br><a href="#article" onclick="showArticle()">continue to full article</a></p>
 		</article>
 	</main>
 	<footer>
@@ -129,7 +126,7 @@
 		<p>&copy;Oh Weather | Weather Data Provided by <a href="https://openweathermap.org/" target="_blank">OpenWeather</a> | Abigail Napier</p>
 		<p id="date"></p>
 	</footer>
-	<script src="js/preston-weather.js"></script>
+	<script src="js/sodasprings-weather.js"></script>
 	<script src="js/toggle.js"></script>
 	<script src="js/town.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

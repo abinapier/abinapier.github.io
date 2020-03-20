@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="The town of Preston Idaho weather and information home page.">
-	<title>Oh Weather | Town of Preston</title>
+	<meta name="description" content="The town of Fish Haven Idaho weather and information home page.">
+	<title>Oh Weather | Town of Fish Haven</title>
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="./css/small.css">
 	<link rel="stylesheet" type="text/css" href="./css/medium.css">
@@ -15,9 +15,6 @@
 	<link rel="shortcut icon" href="./favicon.ico">
 </head>
 <body>
-	<div id="banner">
-		<p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
-	</div>
 	<header>
 		<img src="./images/logo.png" alt="Oh Weather Logo">
 		<div id="motto">For crying out cloud!</div>
@@ -25,21 +22,21 @@
 			<button id="menuButton" onclick="toggleMenu()"><span id="hamburger">&#9776;</span><span id="close" class="hide">&#10005;</span> <span id="menuLabel">Menu</span></button>
         	<ul id="primaryNav" class="hide">
 	            <li><a href="./index.html">Home</a></li>
-	            <li class="active"><a href="#">Preston</a></li>
+	            <li><a href="./preston.html">Preston</a></li>
 	            <li><a href="./sodaSprings.html">Soda Springs</a></li>
-	            <li><a href="./fishHaven.html">Fish Haven</a></li>
+	            <li class="active"><a href="#">Fish Haven</a></li>
 	            <li><a href="./stormcenter.html">Storm Center</a></li>
 	            <li><a href="./gallery.html">Gallery</a></li>     
         	</ul>
 		</nav>
 	</header>
 	<main>
-		<h1>Preston Idaho</h1>
+		<h1>Fish Haven, Idaho</h1>
 		<div id="hero">
 			<picture>
-				<source media="(max-width: 656px)" srcset="images/hero656.jpg">
-				<source media="(max-width: 1015px)" srcset="images/hero689.jpg">
-				<img src="images/hero1015.jpg" alt="Wildflowers with mountain range in background.">
+				<source media="(max-width: 656px)" srcset="images/fish656.jpg">
+				<source media="(max-width: 1015px)" srcset="images/fish689.jpg">
+				<img src="images/fish1015.jpg" alt="Child on swing by stream.">
 			</picture>
 			<div id="weatherSummary">
 				<h2>Weather Summary</h2>
@@ -101,12 +98,12 @@
 			</div>
 		</section>
 		<article id="article">
-			<h2>Community Flips over Pancakes</h2>
-			<h3>By Suzie Que</h3>
-			<p class="full"><img src="images/pancake.jpg" alt="woman with apron flipping pancakes">Preston's town council has started serving pancakes in the town square every week. "The turn out has been fantastic!" says Mayor Green, "We really feel like this has brought a new sense of community to our town." The town welcomes all to come and enjoy the pancakes, live music and vendors every Saturday morning. It has given small buisness owners in the community a new place to find new customers and increase their networking.</p>
-			<p class="full">Sarah Jones, owner of My Fair Soap, says, "I have been able to double my sales since I began renting a booth at the pancake mornings. I love being out in my community selling what I am passionate about!" There have been about 6 booths at every pancake breakfast this month, and the town is hoping that more will be joinging soon.</p>
-			<p class="full">It's not just small buisnesses that are getting exposure from the breakfasts. Musical groups have been able to share their talents as well. Mike Day of the group Two for Tea said, "It has been amazing getting to play for a live crowd. We don't get too many opportunities to share our music outside of our regular gigs, so this has been great!" And the town people are loving it too. Long time town member George Mike said, "I really feel like our sense of community has gotten stronger with these breakfasts. Everyone is coming out and having a great time!"</p>
-			<p class="preview"><img class="preview" src="images/pancake.jpg" alt="woman with apron flipping pancakes">Preston's town council has started serving pancakes in the town square every week. "The turn out has been fantastic!" says Mayor Green, "We really feel like this has brought a new sense of community to our town." The town welcomes all to come and enjoy the pancakes, live music and vendors every Saturday morning. It has given small buisness owners in the community a new place to find new customers and increase their networking...<br><a href="#article" onclick="showArticle()">continue to full article</a></p>
+			<h2>The Fishing Crowds are Coming</h2>
+			<h3>By Sara Moss</h3>
+			<p class="full"><img src="images/fishing.jpg" alt="man fishing by lake">As the weather turns warmer Fish Haven is starting to get a more regular stream of fishers. The yearly fishing season in town is what keeps the town shops alive. Gene Fox has owned the local bait and tackle shop, Jo's Worms, for the past six years, and before that, Gene's uncle, Jo himself owned it. </p>
+			<p class="full">Gene says "We love when fishing season starts. Not only because buisness increases, but because we get to meet people from all over the United States." With Fish Haven having such a small population, most people who come to the town to fish are not locals. For people like Gene, this is great!</p>
+			<p class="full">However, local authorities say that there are some downsides that come with this increase of outsides. Jim Stevens, of the FHPD says that with the increase of people in town, comes an increase of speeding. "We are always going to make sure that the town is safe."</p>
+			<p class="preview"><img class="preview" src="images/fishing.jpg" alt="man fishing by lake">As the weather turns warmer Fish Haven is starting to get a more regular stream of fishers. The yearly fishing season in town is what keeps the town shops alive. Gene Fox has owned the local bait and tackle shop, Jo's Worms, for the past six years, and before that, Gene's uncle, Jo himself owned it. Gene says "We love when fishing season starts. Not only because buisness increases, but because we get to meet people from all over the United States."... <br><a href="#article" onclick="showArticle()">continue to full article</a></p>
 		</article>
 	</main>
 	<footer>
@@ -129,7 +126,7 @@
 		<p>&copy;Oh Weather | Weather Data Provided by <a href="https://openweathermap.org/" target="_blank">OpenWeather</a> | Abigail Napier</p>
 		<p id="date"></p>
 	</footer>
-	<script src="js/preston-weather.js"></script>
+	<script src="js/fishhaven-weather.js"></script>
 	<script src="js/toggle.js"></script>
 	<script src="js/town.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
