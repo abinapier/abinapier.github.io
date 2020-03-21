@@ -66,7 +66,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const towns = jsonObject['towns'];
     for (let i=0; i<towns.length; i++){
-      if(towns[i].name == "Fish Haven"){
+      if(towns[i].name == "Soda Springs"){
         const events = towns[i].events;
         const eventSection = document.getElementsByClassName("events")[0];
         for(let j=0; j<events.length; j++){

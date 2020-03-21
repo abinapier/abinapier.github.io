@@ -24,7 +24,7 @@
 	}
 
 	h1{
-		font-size: 5vw;
+		font-size: 275%;
 	}
 
 	main, footer{
@@ -50,4 +50,55 @@
 		width:150px;
 		margin:5px;
 	}
+
+	article.hp{
+		grid-template-columns: 1fr 2fr;
+	}
+
+	section.hp>div>div{
+		display: flex;
+		flex-direction: row;
+		align-content: center;
+	}
+
+	section.hp>div>div:nth-child(even){
+		flex-direction: row-reverse;
+	}
+
+	section.hp>div>div>div{
+		width:50%;
+		align-self: center;
+	}
+
+	#article{
+		display: block;
+	}
+	#weatherSummary{
+		top: 20px;
+		left:30px;
+	}
+
+	#article img{
+		width: 45%;
+		float: right;
+		padding:5px;
+	}
+
+	#article img.preview{
+		width:200px;
+	}
+	
+	#fiveDay{
+		display:block;
+		margin: auto;
+	}
+
+	main.gallery div{
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main.gallery{
+		max-width:43rem;
+	}
+
 }

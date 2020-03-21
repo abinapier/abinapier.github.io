@@ -10,4 +10,45 @@
 	header img{
 		width:30%;
 	}
+
+	article.hp{
+		grid-template-columns: 1fr 4fr;
+		grid-gap: 30px;
+		padding:30px;
+	}
+
+	article.hp div{
+		align-self: end;
+	}
+
+	section.hp>div{
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 20px;
+	}
+
+	section.hp>div>div{
+		flex-wrap: wrap;
+	}
+
+	section.hp>div>div>div{
+		width:100%;
+	}
+
+	#weatherSummary{
+		width:250px;
+		padding:20px;
+	}
+
+	main.gallery div{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main.gallery{
+		max-width: 75rem;
+	}
+
+
+	main.gallery div figure:hover{
+		box-shadow: 2px 2px 15px black;
+	}
 }
