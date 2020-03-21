@@ -107,3 +107,13 @@ function windChill(temp, wind){
     document.getElementsByClassName("right")[3].innerHTML = "N/A"
   }
 }
+
+function showBanner(){
+  let date = new Date();
+  let day = date.getDay();
+  if(day==5){
+    document.getElementById("banner").style.display="block";
+  }
+}
+
+showBanner();
