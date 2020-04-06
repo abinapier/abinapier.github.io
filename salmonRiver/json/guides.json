@@ -1,0 +1,28 @@
+{
+  "guides": {
+    "0": {
+      "name": "Sarah",
+      "level": "level 5",
+      "img": "sarah.jpg",
+      "experience": "5 years",
+      "email": "sarah@salmonriver.com",
+      "bio": "Sarah grew up next to a river and has always loved it. She knew that her career needed to include water, and serving as a river guide has been the perfect fit. She specializes in training beginners as well as guiding rafts through complex rapids."
+    },
+    "1": {
+      "name": "Mark",
+      "level": "level 4",
+      "img": "mark.jpg",
+      "experience": "3 years",
+      "email": "mark@salmonriver.com",
+      "bio": "Mark just graduated with a degree in Recreational Managment. He interned with us during his schooling, and has now been a full time guide here for over a year. He is high energy and specializes in overnight trips."
+    },
+    "2": {
+      "name": "Chris",
+      "level": "level 6",
+      "img": "chirs.jpg",
+      "experience": "10 years",
+      "email": "chris@salmonriver.com",
+      "bio": "Chris has been rafting for over 20 years. He started working as a part time guide 10 years ago. After he retired he started working full time with us. His experience makes him great on all routes and with all levels of rafters."
+    }
+  }
+}
