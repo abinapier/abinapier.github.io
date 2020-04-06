@@ -13,7 +13,7 @@ fetch('json/guides.json')
   		const guideName = document.createElement('h3');
   		guideName.textContent = guide.name;
   		guideHeader.appendChild(guideName);
-  		guideDiv.appendChild("guideHeader");
+  		guideDiv.appendChild(guideHeader);
 
   		const guideContent = document.createElement('div');
   		guideContent.classList.add("guideContent");
