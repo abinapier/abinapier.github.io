@@ -4,7 +4,7 @@ fetch('json/guides.json')
   })
   .then((data) => {
   	const contentDiv = document.getElementsByClassName("content")[0];
-  	for (const guide in data){
+  	for (const guide in data.guides){
   		const guideDiv = document.createElement("div");
   		guideDiv.classList.add("guide");
 
