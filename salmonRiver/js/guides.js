@@ -60,8 +60,8 @@ fetch('json/guides.json')
 
   		const bio = document.createElement('p');
   		bio.textContent = guide.bio;
-  		guideDiv.appendChild("bio");
+  		guideDiv.appendChild(bio);
 
-  		contentDiv.appendChild("guideDiv");
+  		contentDiv.appendChild(guideDiv);
   	}
   });
