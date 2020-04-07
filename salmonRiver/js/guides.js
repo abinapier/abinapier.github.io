@@ -19,7 +19,7 @@ fetch('json/guides.json')
   		guideContent.classList.add("guideContent");
 
   		const guideImg = document.createElement("img");
-  		guideImg.src = "../images/"+data.guides[guide].img;
+  		guideImg.src = "images/"+data.guides[guide].img;
   		guideImg.alt = "Salmon River Guide "+ data.guides[guide].name;
   		guideContent.appendChild(guideImg);
 
