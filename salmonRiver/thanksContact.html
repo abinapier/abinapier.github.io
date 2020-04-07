@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Contact Salmon River Adventures.">
 	<title>Salmon River Adventures | Home</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="shortcut icon" href="./favicon.ico">
 </head>
 <body>
@@ -16,8 +16,9 @@
 	</header>
 	<main>
 		<nav>
-			<h1>Salmon River Adventures</h1>
-			<ul>
+			<button onclick="toggleMenu()">&#9776;</button>
+			<h1 class="hide">Salmon River Adventures</h1>
+			<ul class="hide">
 				<li><a href="./index.html">Home</a></li>
 				<li><a href="./adventures.html">Adventures</a></li>
 				<li><a href="./guides.html">Guides</a></li>
@@ -26,7 +27,9 @@
 			</ul>
 		</nav>
 		<div class="content">
-			<div class="headerImg"></div>
+			<div class="headerImg">
+				<img src="images/contact.jpg" alt="raft on river">
+			</div>
 			<h2>Contact Us:</h2>
 			<div class="contactInfo">
 				<p><span>(555) 666-7777</span></p>
@@ -51,6 +54,7 @@
 		</div>
 		<div>&copy;2020 Salmon River Adventures | Weather data provided by <a href="https://openweathermap.org/" target="_blank">OpenWeather</a> | Site Design by Abi Napier</div>
 	</footer>
+	<script src="js/menu.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 	<script>
 		WebFont.load({
