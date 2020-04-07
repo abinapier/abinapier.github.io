@@ -23,6 +23,8 @@ fetch('json/guides.json')
   		guideImg.alt = "Salmon River Guide "+ data.guides[guide].name;
   		guideContent.appendChild(guideImg);
 
+      const midSection = document.createElement("div");
+
   		const certDiv = document.createElement("div");
   		const certH4 = document.createElement("h4");
   		certH4.textContent = "certification level:";
@@ -32,7 +34,7 @@ fetch('json/guides.json')
   		certData.appendChild(certSpan);
   		certDiv.appendChild(certH4);
   		certDiv.appendChild(certData);
-  		guideContent.appendChild(certDiv);
+  		midSection.appendChild(certDiv);
 
   		const expDiv = document.createElement("div");
   		const expH4 = document.createElement("h4");
@@ -43,7 +45,7 @@ fetch('json/guides.json')
   		expData.appendChild(expSpan);
   		expDiv.appendChild(expH4);
   		expDiv.appendChild(expData);
-  		guideContent.appendChild(expDiv);
+  		midSection.appendChild(expDiv);
 
   		const emailDiv = document.createElement("div");
   		const emailH4 = document.createElement("h4");
@@ -54,7 +56,9 @@ fetch('json/guides.json')
   		emailData.appendChild(emailSpan);
   		emailDiv.appendChild(emailH4);
   		emailDiv.appendChild(emailData);
-  		guideContent.appendChild(emailDiv);
+  		midSection.appendChild(emailDiv);
+
+      guideContent.appendChild(midSection);
 
   		guideDiv.appendChild(guideContent);
 
