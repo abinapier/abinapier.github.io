@@ -60,12 +60,11 @@ fetch('json/guides.json')
 
       guideContent.appendChild(midSection);
 
-  		guideDiv.appendChild(guideContent);
 
   		const bio = document.createElement('p');
   		bio.textContent = data.guides[guide].bio;
-  		guideDiv.appendChild(bio);
-
+  		guideContent.appendChild(bio);
+      guideDiv.appendChild(guideContent);
   		contentDiv.appendChild(guideDiv);
   	}
   });
